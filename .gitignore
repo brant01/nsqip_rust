@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `cargo test`
+*.test
+
+# Intermediate files and build artifacts
+/target
+/debug
+/release
+
+# Cargo package manager files
+Cargo.lock
+Cargo.toml.orig
+
+# IDE and editor files
+/.idea
+/.vscode
+*.swp
+*.swo
+*.swn
+
+# Rust/Cargo specific files
+**/*.rs.bk
+
+# Exclude data directory
+/data
+
+# Other common files
+.DS_Store
+Thumbs.db
